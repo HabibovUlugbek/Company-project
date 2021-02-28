@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+       <div class="header">
+            <img  class="logo" src="./images/logo-of-company.png" alt="Company logo" >
+            
+            <div class="menu-box ">
+                <ul>
+                    <li class="menu"><a class="menu--block" href="./about--company.html">About company</a></li>
+                    <li class="menu"><a class="menu--block" href="./services.html">Services</a></li>
+                    <li class="menu"><a class="menu--block" href="./articiles.html">Article</a></li>
+                    <li class="menu"><a class="menu--block" href="./typical-project.html">Typical project</a></li>
+                    <li class="menu"><a class="menu--block active" href="./contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </div>   <!--end of header-->
+
+        <div class="main">
+            <div class="map">
+                <div class="contact-left">
+                    <h1>Contacts</h1>
+                    <p class="mb-half">Adress:39-uy, Kate vil,Bukhara</p>
+                    <p class="mb-half">Telephone: +998 93 455 22 05</p>
+                    <p>E-mail: <a  class="email" href="mailito:habibovulug`bek@gmail">habibovulug`bek@gmail</a></p>
+
+                    <h2>Location</h2>
+                    <p><img src="./images/location.jpg" alt="adrees image"></p>
+                </div><!--end-of-contact-left-->
+                <div class="contact-right">
+                    <h2>Your information</h2>
+                    <div class="row">
+                        <form>
+                            <label for="name"> Name:</label>
+                            <input type="name" name="name" id="name" class="contact-form" placeholder="Name">
+                        </form>
+                    </div><!--end-of-row--->
+
+                    <div class="row">
+                            <form>
+                                <label for="email"> E-mail:</label>
+                                <input type="email" name="email" id="email" class="contact-form" placeholder="">
+                            </form>
+                    </div><!--end-of-row--->
+
+                    <div class="row">
+                            <form>
+                                <label for="tel">Telephone:</label>
+                                <input type="tel" name="tel" id="tel" class="contact-form error">
+                            </form>
+                    </div><!--end-of-row--->
+
+                    <div class="row">
+                            <form>
+                                <label for="text"> Text:</label>
+                                <textarea name="text" id="text" cols="30" rows="10" class="contact-form"></textarea>
+                            </form>
+                    </div><!--end-of-row--->
+
+                    <input type="submit" value="Send" id="send" class="send">
+                </div><!--end-of-contact-right-->
+            </div><!--end-of-map-->
+        </div><!--main-->
+        
+        <div class="left">
+            <p><a href="./index.html">exit</a></p>
+        </div>
+        
+        <div class="down">
+            <p class="copyright"> &copy;&nbsp;OOO&nbsp;&laquo;H.U.R&raquo;&nbsp;2002&mdash;2020</p>
+            <p class="phone--number">(93) 455 22 05</p>
+        </div>
+    </div><!--container-->
+</body>
+</html>
